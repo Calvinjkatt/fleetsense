@@ -1,5 +1,232 @@
 {
-  "name": "Midna Tech",
-  "description": "Premium, enterprise-level telematics analytics and AI fleet intelligence website featuring immersive cinematic visuals and atmospheric composition.",
-  "requestFramePermissions": []
+  "name": "MidnaTech",
+  "requestFramePermissions": [],
+  "meta": {
+    "title": "MidnaTech | Custom Software, Integrations & Consulting"
+  },
+  "description": "MidnaTech is a consulting and development team that designs, builds and integrates custom software, data and AI systems around how your business runs.",
+  "brand": {
+    "logo": "[PLACEHOLDER]",
+    "wordmark": "MIDNA",
+    "homeLabel": "MidnaTech home",
+    "palette": {
+      "dark": "#0f0f11",
+      "charcoal": "#1a1a1d",
+      "violet": "#2e1065",
+      "accent": "#f97316",
+      "blue": "#60a5fa",
+      "lavender": "#a78bfa"
+    }
+  },
+  "navigation": {
+    "skip": "Skip to content",
+    "label": "Main navigation",
+    "open": "Open menu",
+    "close": "Close menu",
+    "links": [
+      { "label": "What We Do", "href": "#specialization" },
+      { "label": "Products", "href": "#products" },
+      { "label": "Integrations", "href": "#integrations" },
+      { "label": "Our Story", "href": "#who-we-are" }
+    ],
+    "contact": "Talk to Us"
+  },
+  "hero": {
+    "headline": "We build the operating system",
+    "emphasis": "for your business.",
+    "intro": "Custom software, data and AI systems designed around how your operation actually runs, and connected to the platforms you already use.",
+    "primary": "Start a Project",
+    "secondary": "See Our Products",
+    "word": "SYSTEMS",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+  },
+  "sectionOrder": ["about", "services", "work", "integrations", "process", "experience", "contact"],
+  "about": {
+    "label": "Developers and consultants on one team",
+    "title": "We build products.",
+    "titleStrong": "Ours, and yours too.",
+    "intro": "MidnaTech is a consulting and development team. We design, build and integrate custom software, data and AI systems around the way an operation actually runs.",
+    "quote": "We take responsibility for the systems we design, build and refine, whether they carry our name or yours.",
+    "team": "[PLACEHOLDER]",
+    "word": "CLARITY",
+    "panel": {
+      "line": "Custom systems",
+      "strong": "built around your operation.",
+      "image": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?q=80&w=1974&auto=format&fit=crop"
+    }
+  },
+  "services": {
+    "title": "Consulting and Engineering Under One Roof",
+    "intro": "One team of developers and consultants, from the first conversation through launch and beyond.",
+    "items": [
+      { "icon": "platform", "title": "Custom Software", "detail": "Web and mobile apps designed around the work your staff and customers actually do, instead of forcing them into an off-the-shelf tool." },
+      { "icon": "integration", "title": "Connected Systems", "detail": "We connect the tools, devices and vendor platforms you already pay for, so your team works from one picture instead of five logins." },
+      { "icon": "data", "title": "Data You Can Act On", "detail": "We turn the data you already collect into scores, reports and alerts that tell you where to look first." },
+      { "icon": "ai", "title": "Practical AI", "detail": "AI that explains what your data is flagging in plain language, so the next step is clear to the person who has to take it." },
+      { "icon": "cloud", "title": "Built to Keep Running", "detail": "Systems set up to stay fast and available as your operation grows, and straightforward for your team to live with." },
+      { "icon": "compliance", "title": "Compliance Consulting", "detail": "Guidance on electronic logging device (ELD) certification, hours-of-service rules and fleet compliance programs." }
+    ]
+  },
+  "work": {
+    "title": "What We've Built",
+    "intro": "Each of our own products started as an operational problem. They show the kind of system we can design around yours.",
+    "items": [
+      {
+        "name": "FleetSense", "tagline": "Fleet intelligence platform",
+        "headline": "Know What Your Fleet Needs First",
+        "summary": "Turns the vehicle and camera data a fleet already collects into a short list of what needs attention, who needs coaching and what it is costing.",
+        "features": [
+          "The issues that matter most, each explained in plain language",
+          "A clear view of what fuel waste and vehicle wear are costing",
+          "Driver coaching backed by video of the actual event",
+          "Scores and coaching notes drivers can see on their own phone"
+        ],
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+        "screenshot": { "src": "[PLACEHOLDER]", "alt": "[PLACEHOLDER]" }
+      },
+      {
+        "name": "Elevate", "tagline": "Automated AI coaching platform",
+        "headline": "Automated AI Coaching for Safer Drivers",
+        "summary": "Flags the drivers who need coaching, explains what happened in plain language and tracks every follow-up through to resolution, so nothing falls through the cracks.",
+        "features": [
+          "Automated coaching workflows and escalations",
+          "AI summaries that explain each incident in plain language",
+          "Alerts from different devices combined into one incident",
+          "Risk scores that show who needs attention first"
+        ],
+        "status": "[PLACEHOLDER]",
+        "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop",
+        "screenshot": { "src": "[PLACEHOLDER]", "alt": "[PLACEHOLDER]" }
+      },
+      {
+        "name": "ELD Certification Validation Tool", "tagline": "Certification testing tool",
+        "headline": "Walk Into Certification Prepared",
+        "summary": "Lets device makers check how an electronic logging device behaves before submitting it for certification, so gaps are found early instead of during formal testing.",
+        "features": [
+          "Device behavior checked against certification requirements",
+          "Gaps found and fixed before formal testing",
+          "A quick recheck after every software update",
+          "[PLACEHOLDER]"
+        ],
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop",
+        "screenshot": { "src": "[PLACEHOLDER]", "alt": "[PLACEHOLDER]" }
+      }
+    ],
+    "custom": {
+      "name": "Custom build", "tagline": "Your custom build",
+      "headline": "A System Built Around Your Operation",
+      "summary": "Bring us the operational problem and we'll design, build and connect the system around it.",
+      "features": [
+        "Shaped around how your team works, not a template",
+        "Connected to the tools you already rely on",
+        "Built by the same team behind the products on this page"
+      ],
+      "cta": "Start a Project",
+      "image": "/images/fleet-yard.webp"
+    }
+  },
+  "integrations": {
+    "title": "Connected to the Platforms You Already Run",
+    "intro": "We build on the systems you've already invested in and bring their data into one place, instead of asking you to replace them. These are a few we work with today.",
+    "platforms": [
+      { "name": "Geotab", "logo": "/images/logos/geotab.svg", "detail": "Vehicle tracking" },
+      { "name": "Samsara", "logo": "/images/logos/samsara.svg", "detail": "Vehicle tracking & cameras" },
+      { "name": "Lytx", "logo": "/images/logos/lytx.svg", "detail": "Dash cameras & video safety" }
+    ],
+    "more": { "label": "+ More", "detail": "If your team relies on it, we can connect it." },
+    "groupsLabel": "What we connect",
+    "groups": [
+      {
+        "title": "Vehicles & video",
+        "items": [
+          { "name": "Vehicle tracking", "detail": "Location, trips and engine data" },
+          { "name": "Dash cameras", "detail": "Event video and safety alerts" },
+          { "name": "In-vehicle devices", "detail": "Sensors and electronic logging devices" }
+        ]
+      },
+      {
+        "title": "Regulatory & compliance",
+        "items": [
+          { "name": "FMCSA", "detail": "Safety inspections & violations" },
+          { "name": "Driver logs", "detail": "Hours-of-service records" }
+        ]
+      },
+      {
+        "title": "Your own systems",
+        "items": [
+          { "name": "Internal tools", "detail": "The software your team already uses" },
+          { "name": "Business records", "detail": "The data behind your day-to-day work" },
+          { "name": "Spreadsheets", "detail": "The files your team already keeps" }
+        ]
+      }
+    ],
+    "groupMore": "and more",
+    "inquiry": "Don't see your platform? Ask us about connecting it",
+    "note": "Logos and product names are trademarks of their respective owners."
+  },
+  "process": {
+    "title": "Start With the Operation, Not the Software",
+    "intro": "How a project with us runs, from the first conversation to a system your team uses every day.",
+    "steps": [
+      { "title": "Understand the operation", "detail": "Map the people, tools and handoffs behind the work." },
+      { "title": "Design the system", "detail": "Agree on the workflows, data and first release." },
+      { "title": "Build and integrate", "detail": "Develop the product and connect it to the systems your team uses." },
+      { "title": "Iterate with live data", "detail": "Use real usage and feedback to decide what to improve next." }
+    ]
+  },
+  "experience": {
+    "label": "Consulting experience",
+    "title": "Where we've",
+    "titleStrong": "done it before.",
+    "items": [
+      { "client": "Commercial fleet operators", "detail": "Advised fleet teams on compliance and getting electronic logging devices ready for certification." },
+      { "client": "National telecommunications provider", "detail": "Helped build an early-stage vehicle-tracking platform as part of the provider’s product team." }
+    ],
+    "facts": [
+      { "value": "30+", "context": "years of combined telematics experience across our team" }
+    ]
+  },
+  "industries": {
+    "title": "Industries",
+    "items": ["Transportation & logistics", "[PLACEHOLDER]"]
+  },
+  "contact": {
+    "title": "Have a project?",
+    "titleStrong": "Let's build it.",
+    "intro": "No pitch decks. No pressure. Just a conversation about what you're dealing with and whether we can help.",
+    "word": "CONNECT",
+    "emailLabel": "Email Us",
+    "email": "iot@midnatech.com",
+    "firstName": "First Name", "firstNameHint": "Jane",
+    "lastName": "Last Name", "lastNameHint": "Doe",
+    "workEmail": "Work Email", "workEmailHint": "jane@company.com",
+    "topic": "I'm Interested In",
+    "topics": ["A custom product", "Connecting our systems", "Compliance consulting", "One of your products", "Something else"],
+    "message": "Message", "messageHint": "Tell us what your team needs built...",
+    "submit": "Start the Conversation"
+  },
+  "footer": {
+    "company": "Midna Technologies Inc.",
+    "rights": "All rights reserved.",
+    "tagline": "Custom software, integrations and consulting, built around how your operation runs.",
+    "linksTitle": "Company",
+    "links": [
+      { "label": "About Us", "href": "#who-we-are" },
+      { "label": "Products", "href": "#products" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "editorial": {
+    "jobinNotes": "[PLACEHOLDER]",
+    "genericExperienceApproval": "[PLACEHOLDER]",
+    "telecomScope": "[PLACEHOLDER]",
+    "brandReference": "Colors are the original MidnaTech site palette. Edit brand.palette to change them.",
+    "media": "Each product's image is the dimmed photo behind its card. Set screenshot.src and screenshot.alt to show a real screenshot inside the card. Replace placeholder list items with confirmed copy.",
+    "voice": "Copy is written for business buyers: lead with the benefit and use no technology or tooling names. Products are described by what they are (for example, safety coaching platform); each product's name field is an internal label and is not shown on the page.",
+    "integrations": "Confirm with Jobin which platforms are live integrations today. Earlier copy treated Samsara as available on request. Logos were taken from each vendor's own website; check their brand or partner guidelines before launch. Add a platform by dropping its logo in public/images/logos and adding it to integrations.platforms.",
+    "parkedFigures": [
+      { "value": "≈3,000", "context": "drivers in fleets used to test FleetSense’s nightly scoring" },
+      { "value": "≈3 weeks", "context": "for FleetSense Detect to learn a fleet’s patterns" }
+    ]
+  }
 }

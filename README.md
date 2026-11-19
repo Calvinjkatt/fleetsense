@@ -1,20 +1,13 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# MidnaTech company website
 
-# Run and deploy your AI Studio app
+The layout and styling follow the original midnatech.com design. Edit [metadata.json](./metadata.json) for page copy, navigation, section order and brand colors. Nothing in `components/` needs to change for wording updates.
 
-This contains everything you need to run your app locally.
+- **Sections** render in the order listed in `sectionOrder`: about, services, work (products), integrations, process, experience, contact.
+- **Products** live in `work.items`, with the custom-build card in `work.custom`. Each product's `image` is the dimmed photo behind its card. Set `screenshot.src` and `screenshot.alt` to show a real screenshot inside the card.
+- **Integrations** live in `integrations.groups`. Add or remove a platform by editing the list.
+- **Colors** live in `brand.palette` and feed the Tailwind theme (`bg-midna-dark`, `text-midna-accent` and so on).
+- **Placeholders**: optional fields marked `[PLACEHOLDER]` stay out of the page until filled.
+- **Media**: place approved images in `public/images/` and enter the path (for example, `/images/team.webp`) in the corresponding field.
+- **Editorial notes** under `editorial` are reminders for the team and never render.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1SpAgJzDFMpJEGHIJzI60lDP0k_l4i9bs
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Run `npm install` and `npm run dev` for a local preview. Run `npm run build` to produce the static site in `dist/`.
